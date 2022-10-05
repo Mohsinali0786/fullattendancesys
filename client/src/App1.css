@@ -1,0 +1,323 @@
+/* Form and image */
+.form-with-img {
+  display: flex;
+  justify-content: space-around;
+
+
+  /* grid-template-columns: 60% 40%; */
+  text-align: center;
+  padding: 10px;
+}
+
+/* SignIn-Form */
+.SignIn-Form {
+  border-radius: 30px;
+  padding: 5px;
+  width: 50%;
+}
+
+.mainForm {
+  width: 100%;
+}
+
+
+.MuiInputBase-colorPrimary {
+  background-color: white !important;
+}
+
+#usericon-img {
+  width: 30%;
+}
+
+.UserIconDiv {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.SignInLabel {
+  width: 30% !important;
+}
+
+.loginBtn {
+  background-color: rgb(131, 181, 166) !important;
+  width: 30% !important;
+  border-radius: 4px !important;
+}
+
+.sideGradient {
+  background: #3aaca4;
+  /* background: rgb(255, 255, 255); */
+  background: linear-gradient(90deg, rgba(57, 168, 171, 1) 0%, rgba(57, 177, 155, 1), rgba(72, 179, 168, 1));
+  color: white;
+  padding: 20% 0px;
+  width: 50%;
+  padding-bottom: 100%;
+  /* height: 100%; */
+}
+
+.sideGradient a {
+  /* border: 1px solid black; */
+  color: black;
+  text-decoration: none;
+}
+
+.sideGradient button {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 30%;
+  background-color: white;
+  color: black;
+}
+
+.sideGradient p {
+  padding: 20px;
+}
+
+.CompanyLogin-btn,
+.UserLogin-btn {
+  border: 1px solid white !important;
+  /* background-color: white !important; */
+  color: white !important;
+  border-radius: 4px;
+  width: 25% !important;
+
+}
+
+.User-Company-btn-div {
+  background: #3aaca4;
+  background: linear-gradient(270deg, rgba(57, 168, 171, 1) 0%, rgba(57, 177, 155, 1), rgba(72, 179, 168, 1));
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+  width: 100%;
+  margin-top: -5px;
+
+}
+
+
+@media screen and (max-width: 1300px) {
+  #signUp-mobile {
+    display: none;
+  }
+
+}
+
+
+@media screen and (max-width:680px) {
+  .sideGradient {
+    display: none;
+  }
+
+  #signUp-mobile {
+    display: block;
+  }
+
+  .form-with-img {
+    display: block;
+  }
+
+  .SignIn-Form {
+    width: 90%;
+    /* padding-left: 25% */
+  }
+}
+
+
+/* #SignUp form. */
+
+.SignUpForm-MainDiv {
+  width: 50%;
+  /* margin-left: 15%; */
+  border: 3px solid rgb(131 181 166);
+  border-radius: 25px;
+  margin: 30px;
+  text-align: center;
+}
+
+.signUpForm {
+  /* margin: 10px; */
+  /* margin-left: 25%; */
+  padding: 30px;
+}
+
+.img-in-signup {
+  width: 45%;
+  height: 100%;
+  margin-top: 15%;
+}
+
+.tablestyling {
+  width: 100%;
+}
+
+@media only screen and (max-width:500px) {
+  td {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .signUpForm {
+    margin-left: 0px;
+  }
+
+  .img-in-signup {
+    display: none;
+  }
+
+  .SignUpForm-MainDiv {
+    width: 100%;
+
+  }
+}
+
+td>input {
+  width: 70%;
+  padding: 10px;
+  outline: none;
+}
+
+.VisibleIcon {
+  display: flex;
+  align-items: center;
+}
+
+
+
+#passwordfield {
+  width: 100% !important;
+  padding: 10px !important;
+  outline: none !important;
+
+}
+
+.iconswithinputs {
+
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icons {
+  padding: 10px;
+  background: rgb(131 181 166);
+  color: white;
+  /* min-width: 50px; */
+  text-align: center;
+}
+
+
+
+/* #Admin Section */
+.Header-heading {
+  text-align: center;
+  color: white;
+  margin-left: 10x;
+}
+
+.admin-header {
+  background-color: rgb(131 181 166);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-header :nth-child(0) {
+  width: 80%;
+}
+
+.signout-btn {
+  color: rgb(131 181 166) !important;
+  background-color: white !important;
+  margin-right: 10px !important;
+}
+
+.addUserBtn-div {
+  text-align: right;
+}
+
+
+.addUserBtn-div>button {
+  color: rgb(131 181 166) !important;
+  border: 1px solid black !important;
+  margin: 20px 10px !important;
+
+}
+
+.EditDelBtn {
+  background-color: white !important;
+  border: 1px solid black !important;
+  color: rgb(131 181 166) !important;
+}
+
+/* Student Component  */
+.addAttBtn-div {
+  text-align: right !important;
+}
+
+.addAttBtn-div>button {
+  border: 1px solid black !important;
+  color: rgb(131 181 166) !important;
+  margin: 20px 10px;
+
+}
+
+.StudentName-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.StudentName-div>* {
+  margin: 10px;
+}
+
+
+.StudentPageBtn-div button {
+  border: 1px solid black !important;
+  color: rgb(131 181 166) !important;
+  margin: 20px 10px;
+
+}
+
+.StudentPageBtn-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+/* Home */
+.homeheading {
+  text-align: center;
+  font-weight: normal;
+}
+
+.HomePageBtn-div {
+  display: flex;
+  justify-content: right;
+  margin: 20px;
+}
+
+.HomePageBtn-div>button {
+  border: 1px solid black !important;
+  color: rgb(131 181 166) !important;
+  margin: 20px 10px;
+}
+
+
+
+/* # Company Profile */
+
+
+.Editform-company-prof {
+  width: 100%;
+  /* margin-left: 15%; */
+  border: 3px solid rgb(131 181 166);
+  border-radius: 25px;
+  margin: 30px;
+  text-align: center;
+}
+
+.UserProfile {
+  text-align: center;
+}

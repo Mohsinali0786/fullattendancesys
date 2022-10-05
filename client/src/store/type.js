@@ -1,0 +1,17 @@
+const REGISTER = 'REGISTER'
+const REGISTERCOMPANY = 'REGISTERCOMPANY'
+const LOGININ = 'LOGININ'
+const LOGOUT = 'LOGOUT'
+const DELETE = 'DELETE'
+const EDIT = 'EDIT'
+const ADDDATE = 'ADDDATE'
+
+export {
+    REGISTER,
+    REGISTERCOMPANY,
+    LOGININ,
+    LOGOUT,
+    DELETE,
+    EDIT,
+    ADDDATE,
+}
